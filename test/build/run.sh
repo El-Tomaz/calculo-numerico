@@ -1,3 +1,3 @@
-cmake ../
-make
-./test
+cmake ../ &&
+make &&
+./test 

@@ -57,18 +57,18 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/gaus_jordan.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/gaus_jordan.c.o: ../gaus_jordan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/calculo-numerico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/gaus_jordan.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/gaus_jordan.c.o   -c /workspaces/calculo-numerico/test/gaus_jordan.c
+CMakeFiles/test.dir/teste_gauss_eliminacao.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/teste_gauss_eliminacao.c.o: ../teste_gauss_eliminacao.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/calculo-numerico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/teste_gauss_eliminacao.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/teste_gauss_eliminacao.c.o   -c /workspaces/calculo-numerico/test/teste_gauss_eliminacao.c
 
-CMakeFiles/test.dir/gaus_jordan.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/gaus_jordan.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/calculo-numerico/test/gaus_jordan.c > CMakeFiles/test.dir/gaus_jordan.c.i
+CMakeFiles/test.dir/teste_gauss_eliminacao.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/teste_gauss_eliminacao.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/calculo-numerico/test/teste_gauss_eliminacao.c > CMakeFiles/test.dir/teste_gauss_eliminacao.c.i
 
-CMakeFiles/test.dir/gaus_jordan.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/gaus_jordan.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/calculo-numerico/test/gaus_jordan.c -o CMakeFiles/test.dir/gaus_jordan.c.s
+CMakeFiles/test.dir/teste_gauss_eliminacao.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/teste_gauss_eliminacao.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/calculo-numerico/test/teste_gauss_eliminacao.c -o CMakeFiles/test.dir/teste_gauss_eliminacao.c.s
 
 CMakeFiles/test.dir/unity/unity.c.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/unity/unity.c.o: ../unity/unity.c
@@ -85,13 +85,13 @@ CMakeFiles/test.dir/unity/unity.c.s: cmake_force
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/gaus_jordan.c.o" \
+"CMakeFiles/test.dir/teste_gauss_eliminacao.c.o" \
 "CMakeFiles/test.dir/unity/unity.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/gaus_jordan.c.o
+test: CMakeFiles/test.dir/teste_gauss_eliminacao.c.o
 test: CMakeFiles/test.dir/unity/unity.c.o
 test: CMakeFiles/test.dir/build.make
 test: /usr/lib/x86_64-linux-gnu/libm.so

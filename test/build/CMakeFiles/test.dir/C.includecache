@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/calculo-numerico/test/gaus_jordan.c
+/workspaces/calculo-numerico/test/teste_commons.h
+
+/workspaces/calculo-numerico/test/teste_gauss_eliminacao.c
 unity/unity.h
 /workspaces/calculo-numerico/test/unity/unity.h
-stdio.h
--
-math.h
--
+teste_commons.h
+/workspaces/calculo-numerico/test/teste_commons.h
 
 /workspaces/calculo-numerico/test/unity/unity.h
 unity_internals.h

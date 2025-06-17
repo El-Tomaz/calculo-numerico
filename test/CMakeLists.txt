@@ -5,7 +5,7 @@ project(Tests
             LANGUAGES C
             )
 
-add_executable(test gaus_jordan.c unity/unity.c)
+add_executable(test teste_gauss_eliminacao.c unity/unity.c)
 
 
 #linkando biblioteca matematica

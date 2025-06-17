@@ -123,32 +123,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-gaus_jordan.o: gaus_jordan.c.o
+teste_gauss_eliminacao.o: teste_gauss_eliminacao.c.o
 
-.PHONY : gaus_jordan.o
+.PHONY : teste_gauss_eliminacao.o
 
 # target to build an object file
-gaus_jordan.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/gaus_jordan.c.o
-.PHONY : gaus_jordan.c.o
+teste_gauss_eliminacao.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/teste_gauss_eliminacao.c.o
+.PHONY : teste_gauss_eliminacao.c.o
 
-gaus_jordan.i: gaus_jordan.c.i
+teste_gauss_eliminacao.i: teste_gauss_eliminacao.c.i
 
-.PHONY : gaus_jordan.i
+.PHONY : teste_gauss_eliminacao.i
 
 # target to preprocess a source file
-gaus_jordan.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/gaus_jordan.c.i
-.PHONY : gaus_jordan.c.i
+teste_gauss_eliminacao.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/teste_gauss_eliminacao.c.i
+.PHONY : teste_gauss_eliminacao.c.i
 
-gaus_jordan.s: gaus_jordan.c.s
+teste_gauss_eliminacao.s: teste_gauss_eliminacao.c.s
 
-.PHONY : gaus_jordan.s
+.PHONY : teste_gauss_eliminacao.s
 
 # target to generate assembly for a file
-gaus_jordan.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/gaus_jordan.c.s
-.PHONY : gaus_jordan.c.s
+teste_gauss_eliminacao.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/teste_gauss_eliminacao.c.s
+.PHONY : teste_gauss_eliminacao.c.s
 
 unity/unity.o: unity/unity.c.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... gaus_jordan.o"
-	@echo "... gaus_jordan.i"
-	@echo "... gaus_jordan.s"
+	@echo "... teste_gauss_eliminacao.o"
+	@echo "... teste_gauss_eliminacao.i"
+	@echo "... teste_gauss_eliminacao.s"
 	@echo "... unity/unity.o"
 	@echo "... unity/unity.i"
 	@echo "... unity/unity.s"

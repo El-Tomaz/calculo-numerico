@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/test.dir/gaus_jordan.c.o CMakeFiles/test.dir/unity/unity.c.o  -o test  -lm 
+/usr/bin/cc    CMakeFiles/test.dir/teste_gauss_eliminacao.c.o CMakeFiles/test.dir/unity/unity.c.o  -o test  -lm 

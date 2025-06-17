@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/workspaces/calculo-numerico/test/gaus_jordan.c" "/workspaces/calculo-numerico/test/build/CMakeFiles/test.dir/gaus_jordan.c.o"
+  "/workspaces/calculo-numerico/test/teste_gauss_eliminacao.c" "/workspaces/calculo-numerico/test/build/CMakeFiles/test.dir/teste_gauss_eliminacao.c.o"
   "/workspaces/calculo-numerico/test/unity/unity.c" "/workspaces/calculo-numerico/test/build/CMakeFiles/test.dir/unity/unity.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

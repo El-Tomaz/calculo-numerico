@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/gaus_jordan.c.o"
+  "CMakeFiles/test.dir/teste_gauss_eliminacao.c.o"
   "CMakeFiles/test.dir/unity/unity.c.o"
   "test"
   "test.pdb"
