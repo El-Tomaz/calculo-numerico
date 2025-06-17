@@ -9,10 +9,14 @@
 /workspaces/calculo-numerico/test/teste_commons.h
 
 /workspaces/calculo-numerico/test/teste_gauss_eliminacao.c
-unity/unity.h
-/workspaces/calculo-numerico/test/unity/unity.h
 teste_commons.h
 /workspaces/calculo-numerico/test/teste_commons.h
+unity/unity.h
+/workspaces/calculo-numerico/test/unity/unity.h
+stdio.h
+-
+stdlib.h
+-
 
 /workspaces/calculo-numerico/test/unity/unity.h
 unity_internals.h
